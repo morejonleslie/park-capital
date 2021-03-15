@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "PT-Regular";
+  src: url("../fonts/pt-regular.ttf");
+}
+
+@font-face {
+  font-family: "PT-Bold";
+  src: url("../fonts/pt-bold.ttf");
+}
+
+.container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 245px;
+  padding-right: 245px;
+}
+
+.container .top-section {
+  margin-top: 135px;
+}
+
+.container .bottom-section {
+  margin-bottom: 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .bottom-section p {
+  font-size: 14px;
+  color: #000;
+  line-height: 30px;
+  font-family: "PT-Bold";
+  margin-bottom: 0;
+}
+
+.container .bottom-section p.regular {
+  font-family: "PT-Regular";
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-left: 60px;
+  }
+  .container .top-section {
+    margin-top: 60px;
+  }
+  .container .bottom-section {
+    margin-bottom: 60px;
+  }
+  .container .bottom-section p {
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .container .bottom-section p.regular {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
