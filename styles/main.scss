@@ -4,11 +4,6 @@ html, body {
     overflow: hidden;
 }
 
-a {
-    color: #000;
-    text-decoration: none;
-}
-
 @font-face {
     font-family: "PT-Regular";
     src: url('../fonts/pt-regular.ttf');
@@ -42,6 +37,11 @@ a {
             line-height: 30px;
             font-family: "PT-Bold";
             margin-bottom: 0;
+
+            a {
+                color: #000 !important;
+                text-decoration: none !important;
+            }
 
             &.regular {
                 font-family: "PT-Regular";
