@@ -4,6 +4,11 @@ html, body {
   overflow: hidden;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "PT-Regular";
   src: url("../fonts/pt-regular.ttf");
