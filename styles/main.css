@@ -2,16 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   overflow: hidden;
-}
-
-@font-face {
-  font-family: "PT-Regular";
-  src: url("../fonts/pt-regular.ttf");
-}
-
-@font-face {
-  font-family: "PT-Bold";
-  src: url("../fonts/pt-bold.ttf");
+  font-family: 'Courier Prime', monospace;
 }
 
 .container {
@@ -51,7 +42,6 @@ html, body {
   font-size: 14px;
   color: #000;
   line-height: 30px;
-  font-family: "PT-Bold";
   margin-bottom: 0;
 }
 
@@ -61,7 +51,6 @@ html, body {
 }
 
 .container .bottom-section p.regular {
-  font-family: "PT-Regular";
   margin-bottom: 0;
 }
 
