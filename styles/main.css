@@ -51,7 +51,7 @@ html, body {
 }
 
 .container .bottom-section p a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .container .bottom-section p.regular {
