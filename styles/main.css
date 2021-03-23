@@ -50,6 +50,10 @@ html, body {
   text-decoration: none !important;
 }
 
+.container .bottom-section p a:hover {
+  text-decoration: underline;
+}
+
 .container .bottom-section p.regular {
   margin-bottom: 0;
 }
