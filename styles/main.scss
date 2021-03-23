@@ -33,6 +33,10 @@ html, body {
             a {
                 color: #000 !important;
                 text-decoration: none !important;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
             &.regular {
